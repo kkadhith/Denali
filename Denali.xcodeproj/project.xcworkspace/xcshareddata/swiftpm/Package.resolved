@@ -1,0 +1,15 @@
+{
+  "originHash" : "7f0fc532a37a15f804bdaed2339a59767706c6048d2c157614d7e1e5d92f6676",
+  "pins" : [
+    {
+      "identity" : "airalert",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kkadhith/AirAlert.git",
+      "state" : {
+        "revision" : "dec8303d13969b58b45c8b3068d5fdce21711ed9",
+        "version" : "0.0.5"
+      }
+    }
+  ],
+  "version" : 3
+}

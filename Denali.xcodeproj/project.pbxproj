@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B5A871D2DE559B400D21C21 /* AirAlert in Frameworks */ = {isa = PBXBuildFile; productRef = 4B5A871C2DE559B400D21C21 /* AirAlert */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B3140692DE4F99E005E1838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B3140502DE4F99E005E1838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B3140572DE4F99E005E1838;
+			remoteInfo = Denali;
+		};
+		4B3140732DE4F99E005E1838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B3140502DE4F99E005E1838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B3140572DE4F99E005E1838;
+			remoteInfo = Denali;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B3140582DE4F99E005E1838 /* Denali.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Denali.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3140682DE4F99E005E1838 /* DenaliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DenaliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3140722DE4F99E005E1838 /* DenaliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DenaliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4B31405A2DE4F99E005E1838 /* Denali */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Denali;
+			sourceTree = "<group>";
+		};
+		4B31406B2DE4F99E005E1838 /* DenaliTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DenaliTests;
+			sourceTree = "<group>";
+		};
+		4B3140752DE4F99E005E1838 /* DenaliUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DenaliUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B3140552DE4F99E005E1838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5A871D2DE559B400D21C21 /* AirAlert in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3140652DE4F99E005E1838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B31406F2DE4F99E005E1838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B31404F2DE4F99E005E1838 = {
+			isa = PBXGroup;
+			children = (
+				4B31405A2DE4F99E005E1838 /* Denali */,
+				4B31406B2DE4F99E005E1838 /* DenaliTests */,
+				4B3140752DE4F99E005E1838 /* DenaliUITests */,
+				4B3140592DE4F99E005E1838 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B3140592DE4F99E005E1838 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B3140582DE4F99E005E1838 /* Denali.app */,
+				4B3140682DE4F99E005E1838 /* DenaliTests.xctest */,
+				4B3140722DE4F99E005E1838 /* DenaliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B3140572DE4F99E005E1838 /* Denali */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B31407C2DE4F99E005E1838 /* Build configuration list for PBXNativeTarget "Denali" */;
+			buildPhases = (
+				4B3140542DE4F99E005E1838 /* Sources */,
+				4B3140552DE4F99E005E1838 /* Frameworks */,
+				4B3140562DE4F99E005E1838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4B31405A2DE4F99E005E1838 /* Denali */,
+			);
+			name = Denali;
+			packageProductDependencies = (
+				4B5A871C2DE559B400D21C21 /* AirAlert */,
+			);
+			productName = Denali;
+			productReference = 4B3140582DE4F99E005E1838 /* Denali.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B3140672DE4F99E005E1838 /* DenaliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B31407F2DE4F99E005E1838 /* Build configuration list for PBXNativeTarget "DenaliTests" */;
+			buildPhases = (
+				4B3140642DE4F99E005E1838 /* Sources */,
+				4B3140652DE4F99E005E1838 /* Frameworks */,
+				4B3140662DE4F99E005E1838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B31406A2DE4F99E005E1838 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4B31406B2DE4F99E005E1838 /* DenaliTests */,
+			);
+			name = DenaliTests;
+			packageProductDependencies = (
+			);
+			productName = DenaliTests;
+			productReference = 4B3140682DE4F99E005E1838 /* DenaliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B3140712DE4F99E005E1838 /* DenaliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3140822DE4F99E005E1838 /* Build configuration list for PBXNativeTarget "DenaliUITests" */;
+			buildPhases = (
+				4B31406E2DE4F99E005E1838 /* Sources */,
+				4B31406F2DE4F99E005E1838 /* Frameworks */,
+				4B3140702DE4F99E005E1838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B3140742DE4F99E005E1838 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4B3140752DE4F99E005E1838 /* DenaliUITests */,
+			);
+			name = DenaliUITests;
+			packageProductDependencies = (
+			);
+			productName = DenaliUITests;
+			productReference = 4B3140722DE4F99E005E1838 /* DenaliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B3140502DE4F99E005E1838 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					4B3140572DE4F99E005E1838 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					4B3140672DE4F99E005E1838 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4B3140572DE4F99E005E1838;
+					};
+					4B3140712DE4F99E005E1838 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4B3140572DE4F99E005E1838;
+					};
+				};
+			};
+			buildConfigurationList = 4B3140532DE4F99E005E1838 /* Build configuration list for PBXProject "Denali" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B31404F2DE4F99E005E1838;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4B5A871B2DE559B400D21C21 /* XCRemoteSwiftPackageReference "AirAlert" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4B3140592DE4F99E005E1838 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B3140572DE4F99E005E1838 /* Denali */,
+				4B3140672DE4F99E005E1838 /* DenaliTests */,
+				4B3140712DE4F99E005E1838 /* DenaliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B3140562DE4F99E005E1838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3140662DE4F99E005E1838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3140702DE4F99E005E1838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B3140542DE4F99E005E1838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3140642DE4F99E005E1838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B31406E2DE4F99E005E1838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B31406A2DE4F99E005E1838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B3140572DE4F99E005E1838 /* Denali */;
+			targetProxy = 4B3140692DE4F99E005E1838 /* PBXContainerItemProxy */;
+		};
+		4B3140742DE4F99E005E1838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B3140572DE4F99E005E1838 /* Denali */;
+			targetProxy = 4B3140732DE4F99E005E1838 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B31407A2DE4F99E005E1838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B31407B2DE4F99E005E1838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B31407D2DE4F99E005E1838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Denali/Preview Content\"";
+				DEVELOPMENT_TEAM = 9R9Y648SYS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkadhith.Denali;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B31407E2DE4F99E005E1838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Denali/Preview Content\"";
+				DEVELOPMENT_TEAM = 9R9Y648SYS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkadhith.Denali;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B3140802DE4F99E005E1838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R9Y648SYS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkadhith.DenaliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Denali.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Denali";
+			};
+			name = Debug;
+		};
+		4B3140812DE4F99E005E1838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R9Y648SYS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkadhith.DenaliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Denali.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Denali";
+			};
+			name = Release;
+		};
+		4B3140832DE4F99E005E1838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R9Y648SYS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkadhith.DenaliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Denali;
+			};
+			name = Debug;
+		};
+		4B3140842DE4F99E005E1838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R9Y648SYS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkadhith.DenaliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Denali;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B3140532DE4F99E005E1838 /* Build configuration list for PBXProject "Denali" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B31407A2DE4F99E005E1838 /* Debug */,
+				4B31407B2DE4F99E005E1838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B31407C2DE4F99E005E1838 /* Build configuration list for PBXNativeTarget "Denali" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B31407D2DE4F99E005E1838 /* Debug */,
+				4B31407E2DE4F99E005E1838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B31407F2DE4F99E005E1838 /* Build configuration list for PBXNativeTarget "DenaliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3140802DE4F99E005E1838 /* Debug */,
+				4B3140812DE4F99E005E1838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3140822DE4F99E005E1838 /* Build configuration list for PBXNativeTarget "DenaliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3140832DE4F99E005E1838 /* Debug */,
+				4B3140842DE4F99E005E1838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4B5A871B2DE559B400D21C21 /* XCRemoteSwiftPackageReference "AirAlert" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kkadhith/AirAlert.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4B5A871C2DE559B400D21C21 /* AirAlert */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B5A871B2DE559B400D21C21 /* XCRemoteSwiftPackageReference "AirAlert" */;
+			productName = AirAlert;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4B3140502DE4F99E005E1838 /* Project object */;
+}
