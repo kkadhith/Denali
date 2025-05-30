@@ -194,6 +194,7 @@ struct TripMapView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 10))
                 }
             }
+            .padding(.bottom, 8)
             .navigationTitle(trip.title ?? "Trip Overview")
         }
         .scrollIndicators(.hidden)
