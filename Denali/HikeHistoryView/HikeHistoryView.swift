@@ -84,7 +84,7 @@ struct LocationView: View {
     
     // TODO: Understand namespace prop wrapper and how it affects animation:
     // https://developer.apple.com/documentation/swiftui/view/navigationtransition(_:)
-    @Namespace private var namespace
+//    @Namespace private var namespace
     
     var body: some View {
         VStack {
@@ -106,12 +106,10 @@ struct LocationView: View {
                             ForEach(filteredTrips, id: \.startDate) { trip in
                                 NavigationLink {
                                     TripMapView(trip: trip)
-                                        .navigationTransition(.zoom(sourceID: "triplist", in: namespace))
+//                                        .navigationTransition(.zoom(sourceID: "trip_\(trip.startDate?.timeIntervalSince1970 ?? 0)", in: namespace))
                                 } label: {
-                                    VStack {
-                                        TripListItem(tripItemTitle: trip.title ?? "", tripDate: trip.endDate ?? Date(), tripAverageAltitude: trip.averageAltitude, tripAverageSpeed: trip.averageSpeed)
-                                            .matchedTransitionSource(id: "triplist", in: namespace)
-                                    }
+                                    TripListItem(tripItemTitle: trip.title ?? "", tripDate: trip.endDate ?? Date(), tripAverageAltitude: trip.averageAltitude, tripAverageSpeed: trip.averageSpeed)
+//                                        .matchedTransitionSource(id: "trip_\(trip.startDate?.timeIntervalSince1970 ?? 0)", in: namespace)
                                 }
                             }
                             .onDelete(perform: deleteTrip)
